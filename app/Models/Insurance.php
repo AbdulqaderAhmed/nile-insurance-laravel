@@ -10,6 +10,8 @@ class Insurance extends Model
     use HasFactory;
 
     protected $fillable = [
-        'firstname', 'lastname', 'brand', 'model', 'price'
+        'body', 'description', 'model', 'engine', 'transmission', 'cc', 'brand1', 'brand2', 'brand3',
+        'brand4', 'brand5', 'brand6', 'brand7', 'brand8', 'brand9', 'brand10', 'brand11',
+        'brand12',
     ];
 }

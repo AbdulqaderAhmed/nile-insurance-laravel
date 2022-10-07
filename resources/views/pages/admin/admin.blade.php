@@ -29,7 +29,7 @@
 
         <div id="layoutSidenav_content">
             <main>
-                @yield('admin')
+              @yield('admin')
             </main>
         </div>
 

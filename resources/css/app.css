@@ -12239,3 +12239,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+table {
+    counter-reset: row-num;
+}
+
+table tr {
+    counter-increment: row-num;
+}
+
+table tr td:first-child::before {
+    content: counter(row-num - 1);
+}
